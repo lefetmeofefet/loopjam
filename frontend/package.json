@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-dev": "webpack --mode=development --watch",
-    "build": "webpack  --mode=development",
-    "heroku-postbuild": "cd www/client && npm install"
+    "build": "webpack  --mode=development"
   },
   "author": "",
   "license": "ISC",

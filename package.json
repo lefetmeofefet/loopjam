@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "start": "node --experimental-modules dist/app.js"
+    "start": "node --experimental-modules dist/app.js",
+    "heroku-postbuild": "cd www/client && npm install"
   },
   "author": "",
   "license": "ISC",
