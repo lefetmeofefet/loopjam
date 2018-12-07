@@ -1,21 +1,22 @@
-# node-js-getting-started
+# NodeJS + React, in TypeScript
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+A barebones Fullstack Node.js app using [Express](http://expressjs.com/), [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/).
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/), [Heroku CLI](https://cli.heroku.com/) and [Webpack](https://webpack.js.org) installed.
 
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
+Next, clone the project, change name in package.json, and run:
+ ```
+ npm install
+ cd frontend && npm install
+ cd ..
+ npm run watch
+ npm run start
+ ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Your app should now be running on [localhost:8081](http://localhost:8081/).
 
 ## Deploying to Heroku
 

@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "tsc -w",
-    "build": "tsc",
+    "watch": "start npm run watch-backend & start npm run watch-ui",
+    "watch-backend": "tsc -w",
+    "watch-ui": "cd frontend && npm run watch",
+    "build-backend": "tsc",
     "start": "node --experimental-modules dist/app.js",
     "heroku-postbuild": "cd frontend && npm install"
   },

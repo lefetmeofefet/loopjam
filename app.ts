@@ -1,4 +1,6 @@
-import express = require("express");
+import * as express from "express";
+import nothing from "./backend/nothing"
+console.log(nothing);
 const app = express();
 
 app.use(express.static('frontend'));
